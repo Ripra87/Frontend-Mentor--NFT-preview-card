@@ -1,0 +1,129 @@
+body {          /*GENERAL SETTINGS*/
+    background-color: hsl(217, 54%, 11%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    background-color: hsl(217, 54%, 11%);
+    width: 27em;
+    height: 41em;
+    border-radius: 10%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, span {
+    color: hsl(0, 0%, 100%);
+}
+
+p {
+    color: hsl(178, 100%, 50%);
+}
+
+hr {
+    width: 17em;
+    border-color: hsl(178, 100%, 50%);
+    margin-top: 1em;
+}
+
+.middle-layer {
+    background-color: hsl(215, 55%, 10%);
+    width: 22em;
+    height: 37.5em;
+    border-radius: 6%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {     /*MAIN CARD SETTINGS*/
+    background-color:hsl(216, 50%, 16%);
+    width: 20em;
+    height: 33em;
+    padding-top:1em;
+    border-radius: 5%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {        /*EQUILIBRIUM IMG SETTINGS*/
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.equilibr-img {
+    width: 17em;
+    height: 17em;
+    border-radius: 10%;
+}
+
+.icon {         /*ICON EYE SETTINGS*/
+    height:17em;
+    width:17em;
+    position:absolute;
+}
+.eye {
+    height:17em;
+    width:17em;
+
+}
+.icon-view {
+    width:3em;
+    height:3em;
+    position:relative;
+    top:42%;
+    left:42%;
+    opacity:0;
+ }
+ 
+.description {      /*TEXT SETTINGS*/
+    width:17em;
+    font-family: 'Outfit', sans-serif;
+}
+
+.price {
+    display: inline;
+}
+
+.time-left {
+    display: inline;
+    margin-left: 5.7em;
+}
+
+.creator {
+    margin-right:5em;
+    font-family: 'Outfit', sans-serif;
+}
+
+#eth-img {
+    width:0.6em;
+    height:0.8em;
+    margin-right:0.3em;
+}
+
+#clock-img {
+    width:0.8em;
+    height:0.8em;
+    margin-right:0.3em;
+}
+
+#jules-wyver-img {
+    width:1.4em;
+    height:1.4em;
+    margin-right: 1em;
+}
+
+.image:hover .equilibr-img {     /*HOVER SETTINGS*/
+    opacity:0.3;
+}
+
+.image:hover .icon-view {
+    opacity: 1;
+}
